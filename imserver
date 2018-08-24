@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+
+<?php
+
+/**
+ * IM Notifications Server
+ *
+ * @author Alek.su via a@alek.su
+ */
+
+ set_time_limit(0);
+ defined('APP_ROOT') or define('APP_ROOT',  __DIR__ );
+ require_once APP_ROOT . '/vendor/autoload.php';
+ require_once APP_ROOT . '/app/core.php';

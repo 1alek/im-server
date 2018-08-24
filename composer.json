@@ -1,0 +1,10 @@
+{
+    "name": "alek/im-server",
+    "description": "IM Notification Server (Telegram, ICQ)",
+    "version": "1.1",
+    "require": {
+	"php": ">=5.5",
+	"workerman/workerman" : "^3.5",
+	"guzzlehttp/guzzle": "^6.2"
+    }
+}

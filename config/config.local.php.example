@@ -1,0 +1,33 @@
+<?php
+
+ return
+ [
+    'app' => [
+        'date_format'   => "Y/m/d H:i:s",
+        'timezone'      => "Europe/Moscow",
+        'debug'         => false
+    ],
+
+    'workers' => [
+        'listen' => 'http://0.0.0.0:8181',
+        'count'  => 4
+    ],
+
+    'messenger' => [
+
+	'icq' => [
+	    'uin'         => '123545678',
+	    'password'    => 'dj34hf93f3f3',
+            'token'       => [],
+            'token_renew' => '86400'
+	],
+
+	'telegram' => [
+	    'apikey'    => '112233445:23214235345345364564756756756-567567567567',
+	    'use_proxy' => 1,
+	    'proxy'     => 'socks5://user:PAsSw0rd@10.0.0.100:443'
+	]
+
+    ]
+
+ ];
